@@ -13,18 +13,37 @@ Friday AI is a **Python-based personal assistant** that allows you to interact w
 
 ---
 ## 📥 Installation
+speech_recognition: For voice-to-text functionality.
 
+google.generativeai: For interacting with Gemini AI.
+
+os: For executing system commands.
+
+subprocess: For executing bash commands safely.
+
+pyttsx3: For text-to-speech feedback.
 Clone the repository:
 
 ```bash
+#Creating a Virtual Environment
+python -m venv env
+
+#macOS and Linux
+source env/bin/activate
+
+#macOS and Linux
+env\Scripts\activate.bat
+
+# Install dependencies
+pip install pyfiglet SpeechRecognition google-generativeai pyttsx3
 # Clone the repository
 git clone https://github.com/your-username/friday-ai.git
 
 # Navigate to the directory
 cd friday-ai
 
-# Install dependencies
-pip install -r requirements.txt
+
+
 
 # Run the application
 python main.py
