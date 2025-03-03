@@ -25,6 +25,11 @@ pyttsx3: For text-to-speech feedback.
 Clone the repository:
 
 ```bash
+git clone https://github.com/your-username/friday-ai.git
+
+# Navigate to the directory
+cd friday-ai
+
 #Creating a Virtual Environment
 python -m venv env
 
@@ -37,10 +42,7 @@ env\Scripts\activate.bat
 # Install dependencies
 pip install pyfiglet SpeechRecognition google-generativeai pyttsx3
 # Clone the repository
-git clone https://github.com/your-username/friday-ai.git
 
-# Navigate to the directory
-cd friday-ai
 
 
 
